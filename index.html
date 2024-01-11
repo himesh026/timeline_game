@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timeline Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div>
+            <h2 class="mainheading">PLACE THE CARDS ON THE TIMELINE IN THE CORRECT ORDER.</h2>
+            <button id="startButton" onclick="startGame()">Start Game</button>
+        </div>
+
+        <div id="gameArea" class="hidden">
+
+            <div id="chances">Chances: <span id="heartCount">♥♥♥</span></div>
+            <div id="score">Score: 0</div>
+            <div class="arrangebox" id="mainbox">
+                <!-- <div id="middleCard" class="draggable" draggable="true" ondragstart="dragStart(event)"> -->
+                    <div class="box" draggable="true"></div>
+                </div>
+            </div>
+                <!-- Middle card content will be added dynamically -->
+            </div>
+
+            <!-- <div id="timeline"> -->
+                <!-- Timeline elements will be added dynamically -->
+            <!-- </div> -->
+            
+        </div>
+
+        <div class="lowerbox">
+            <div class="arrangebox">
+                <!-- <div class="box" draggable="true"></div> -->
+            </div>
+            <div class="arrangebox"></div>
+            <div class="arrangebox"></div>
+            <div class="arrangebox"></div>
+        </div>
+
+        <div id="gameOver" class="hidden">
+            <p id="gameResult"></p>
+            <p id="finalScore"></p>
+            <p id="bestStreak"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

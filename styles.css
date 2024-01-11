@@ -1,0 +1,106 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #23272C;
+    color:white;
+  }
+  .mainheading{
+    margin-top: 345px;
+    text-align: center;
+  }
+
+  .container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  #startButton{
+    background-color: #0084C7;
+    padding: 10 24 10 24;
+    border: none;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+  color: #fff;
+  padding: 10px 21px;
+  text-align: center;
+  transition: color .13s ease-in-out,background .13s ease-in-out,opacity .13s ease-in-out,box-shadow .13s ease-in-out;
+
+  }
+
+#startButton:active {
+  background-color: #006AE8;
+}
+
+#startButton:hover {
+  background-color: #1C84FF;
+}
+  #gameArea {
+    margin-top: 20px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #timeline {
+    width: 80%;
+    height: 20px;
+    border: 1px solid #000;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  #middleCard {
+    width: 100px;
+    height: 150px;
+    background-color: #f0f0f0;
+    border: 1px solid #000;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  
+  #score, #chances {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  .draggable {
+    cursor: move;
+  }
+  
+  #heartCount {
+    color: red;
+  }
+  
+  #gameOver {
+    color: red;
+  }
+  
+#mainbox{
+  border: 1px dashed #5c7080;
+  height: 250px;
+  width: 200px;
+}
+.lowerbox{
+  margin-top: 100px;
+}
+.arrangebox{
+  display: inline-block;
+  height: 250px;
+  width: 200px;
+  background-color: wheat;
+
+}
+
+.box{
+  width: 100px;
+  height: 150px;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  cursor: pointer;
+  background-color: yellow;
+  
+  
+}
